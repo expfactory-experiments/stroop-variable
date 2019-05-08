@@ -299,19 +299,6 @@ var instruction_node = {
 	}
 }
 
-var check_performance  = {
-	type: 'poldrack-text',
-	data: {
-		trial_id: "end",
-    	exp_id: 'stroop'
-	},
-	timing_response: 180000,
-	text: '<div class = centerbox><p class = center-block-text>Thanks for playing!</p><p class = center-block-text>Press <strong>enter</strong> to continue.</p></div>',
-	cont_key: [13],
-	timing_post_trial: 0,
-	on_finish: assessPerformance
-};
-
 var end_block = {
 	type: 'poldrack-text',
 	data: {
