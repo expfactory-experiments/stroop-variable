@@ -220,19 +220,6 @@ var attention_node = {
 	}
 }
 
-//Set up post task questionnaire
-var post_task_block = {
-   type: 'survey-text',
-   data: {
-       trial_id: "post task questions"
-   },
-   questions: ['<p class = center-block-text style = "font-size: 20px">Please summarize what you were asked to do in this task.</p>',
-              '<p class = center-block-text style = "font-size: 20px">Do you have any comments about this task?</p>'],
-   rows: [15, 15],
-   columns: [60,60]
-};
-
-
 /* define static blocks */
 var response_keys =
 	'<ul class="list-text"><li><span class = "large" style = "color:#f64747;font-weight:bold">WORD</span>: "R key"</li><li><span class = "large" style = "color:#00bfff;font-weight:bold">WORD</span>: "B key"</li><li><span class = "large" style = "color:#F1F227;font-weight:bold">WORD</span>: "Y key"</li></ul>'
